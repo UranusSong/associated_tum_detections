@@ -20,14 +20,7 @@ Detections have been manually associated to categorize which detections belong t
 
 
 # 修改
-frame id
-track id
-class id
-class name
-box xyxy
-score
 
-txt_name 000000.txt (image key)
-
-local_id x y x y confidence class_id track_id
-0 237.05 93.32 390.44 231.22 0.99 63 track_id
+file named by frame idx
+txt format:
+local_id xmin ymin xmax ymax confidence class_id track_id
